@@ -1,0 +1,105 @@
+@font-face{
+    src: url(fonts/Emberly-LightNarrow.ttf);
+    font-family: EmberlyLightNarrow;
+}
+@font-face{
+    src: url(fonts/Emberly-BoldNarrow.ttf);
+    font-family: EmberlyBoldNarrow;
+}
+
+
+
+body {
+    background-color: #DAD7CD;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.header{
+    font-family: EmberlyLightNarrow, Verdana, Arial;
+    font-size: 4em;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 1px #3A5A40;
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+
+
+.navbar{
+    display: table;
+    width: 100%;
+    text-align: center;
+    height: 8vh;
+    table-layout: fixed;
+}
+
+.navitem {
+    font-family: EmberlyBoldNarrow, Verdana, Arial;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #3A5A40;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+h2{
+    font-family: EmberlyLightNarrow, Verdana, Arial;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+#portrait{
+    display: block;
+    margin: 0 auto;
+}
+
+#portrait-text{
+    font-family: EmberlyBoldNarrow, Verdana, Arial;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 4px;
+    display: block;
+    clear: both;
+}
+
+
+
+.reg-center{
+    font-family: EmberlyBoldNarrow, Verdana, Arial;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+.reg{
+    font-family: EmberlyBoldNarrow, Verdana, Arial;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.reg-posts{
+    font-family: Verdana, Arial;
+    font-size: 0.8em;
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkseagreen;
+}
