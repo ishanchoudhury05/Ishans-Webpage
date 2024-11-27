@@ -11,8 +11,6 @@
 
 body {
     background-color: #DAD7CD;
-    margin-left: 250px;
-    margin-right: 250px;
 }
 
 .header{
@@ -86,6 +84,20 @@ h2{
     font-family: EmberlyBoldNarrow, Verdana, Arial;
     font-size: 1.2em;
     letter-spacing: 1px;
+}
+
+.reg-lists{
+    font-family: EmberlyBoldNarrow, Verdana, Arial;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    text-align: left;
+    /* Use this style for list elements: style="width: 900px; margin: 10px 0;" */
 }
 
 .reg-posts{
